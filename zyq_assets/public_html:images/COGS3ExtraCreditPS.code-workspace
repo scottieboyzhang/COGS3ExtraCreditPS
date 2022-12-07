@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../../../COGS3ExtraCreditPS"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "COGS3ExtraCreditPS",
+		"liveServer.settings.port": 5501
+	}
+}

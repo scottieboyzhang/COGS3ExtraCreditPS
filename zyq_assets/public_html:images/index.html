@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+  /* Make the image fully responsive */
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+  </style>
+</head>
+<body>
+
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <h1>Part A tutorial</h1>
+      <p>Tutorial: https://design.tutsplus.com/tutorials/pyrophobia-inspired-fiery-text-effect--cms-29688?_ga=2.51412649.1035008915.1670112878-1135081143.1670112878</p>
+      <br>
+      <p>(a) I chose to create a poster using the fire style</p>
+      <br>
+      <p>(b) This tutorial is shown in the writeup</p>
+      <br>
+      <p>(c) I learned how to render effect in text in photoshop</p>
+    <img src="1-tutorial.png" alt="Los Angeles" width="110" height="50">
+
+    </div>
+      
+    <div class="carousel-item">
+      <h1>Part A result</h1>
+      <img src="1.png" alt="Los Angeles" width="110" height="50">
+    </div>
+    
+    <div class="carousel-item">
+      <h1>Part B tutorial</h1>
+      
+      <p>Tutorial: https://www.adobe.com/creativecloud/photography/discover/overlay-images.html</p>
+        <br>
+        <p>(a) I created a new photo by overlay two photos I took together</p>
+        <br>
+        <p>(b) I selected this tutorial because it is interesting</p>
+        <br>
+        <p>(b) I learned how to use photoshop to overlay two pictures</p>
+        <img src="2-tutorial.png" alt="Chicago" width="110" height="50">
+      </div>
+      
+      <div class="carousel-item">
+        <h1>Part B in progress</h1>
+        <img src="2-progress.jpg" alt="Chicago" width="110" height="50">
+      </div>
+      
+    <div class="carousel-item">
+      <h1>Part B result</h1>
+    <img src="2.png" alt="Chicago" width="110" height="50">
+
+    </div>
+
+    <div class="carousel-item">
+      <h1>Part C tutorial</h1>
+    <p>Tutorial: https://www.youtube.com/watch?v=2DU0Sim_BJ4</p>
+      <br>
+      <p>(a) I created a Cinemagraph</p>
+      <br>
+      <p>(b) Because it was shown in the writeup</p>
+      <br>
+      <p>(b) I learned how to create Cinemagraph uisng photoshop</p>
+      <img src="3-tutorial.png" alt="Chicago" width="110" height="50">
+    </div>
+
+    <div class="carousel-item">
+      <h1>Part C in progress</h1>
+    <img src="3-progress.png" alt="Chicago" width="110" height="50">
+
+    </div>
+
+    <div class="carousel-item">
+      <h1>Part C result</h1>
+    <img src="3.gif" alt="Chicago" width="110" height="50">
+    </div>
+
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+
+</body>
+</html>
